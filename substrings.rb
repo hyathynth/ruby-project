@@ -9,7 +9,7 @@ def substrings (words, dictionary)
             end
         end
     end
-    return word_count.sort
+    return Hash[word_count.sort]
 end
 
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
